@@ -207,6 +207,25 @@ main {
       opacity: 0.5;
       border-color: #00e677;
       transition: all 1s ease-in-out; }
+      .projects img:hover:hover {
+        padding: 0.5rem 1.5rem;
+        background: #00e677;
+        color: #000; }
+        .projects img:hover:hover span {
+          color: #000; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px solid #fff;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 1s ease-in-out; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
